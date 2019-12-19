@@ -33,7 +33,7 @@ int Create_Node(Position_Node, char*);
 int Print_Node(Position_Node, char*);
 int Push_Node(Position_Stack, Position_Node);
 Position_Node Pop_Node(Position_Stack);
-Position_Node Enter_Node(Position_Node, char*, char*, Position_Stack);
+Position_Node Enter_Node(Position_Node, char*, Position_Stack);
 Position_Node Exit_Node(Position_Node, Position_Stack);
 
 int main()
@@ -45,7 +45,6 @@ int main()
 	char c;
 	int a = 1;
 
-	char* i, * j;
 
 	struct Node root;
 	struct Stack S;
